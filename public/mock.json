@@ -1,0 +1,42 @@
+{
+	"id": "1212",
+	"createdAt": "2022-12-15 7:00",
+	"members": [
+		{
+			"name": "Участник №1",
+			"isOnline": true,
+			"warranty": 24,
+			"productionTime": 80,
+			"paymentTerm": "30%",
+			"productionCoast": "3,700,000 руб",
+			"hasMeasures": false
+		},
+		{
+			"name": "Участник №2",
+			"isOnline": false,
+			"warranty": 22,
+			"productionTime": 90,
+			"paymentTerm": "100%",
+			"productionCoast": "3,200,000 руб",
+			"hasMeasures": false
+		},
+		{
+			"name": "Участник №3",
+			"isOnline": true,
+			"warranty": 24,
+			"productionTime": 75,
+			"paymentTerm": "60%",
+			"productionCoast": "2,800,000 руб",
+			"hasMeasures": false
+		},
+		{
+			"name": "Участник №4",
+			"isOnline": false,
+			"warranty": 36,
+			"productionTime": 120,
+			"paymentTerm": "50%",
+			"productionCoast": "2,500,000 руб",
+			"hasMeasures": false
+		}
+	]
+}
