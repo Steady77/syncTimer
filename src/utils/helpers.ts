@@ -7,12 +7,10 @@ export const calcMemberQueue = (startedAt: string, membersCount: number) => {
 	const totalMembersTime =
 		(millisecNow - millisecStartedAt) % (TURN_DURATION * membersCount);
 
-	const index = Math.floor(totalMembersTime / TURN_DURATION);
-
-	const currentMember = Math.abs(index + 1);
+	const currentMember = Math.floor(totalMembersTime / TURN_DURATION);
 
 	const memberTimeForTurn =
-		TURN_DURATION - (totalMembersTime - index * TURN_DURATION);
+		TURN_DURATION - (totalMembersTime - currentMember * TURN_DURATION);
 
 	return {
 		currentMember,
